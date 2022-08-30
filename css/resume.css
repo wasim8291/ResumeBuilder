@@ -1,12 +1,8 @@
 body{
-     background-color: rgb(255, 106, 0);
+     background-color: lightyellow;
      color: #000;
      font-family: Georgia, 'Times New Roman', Times, serif;
      text-transform: capitalize;
-}
-
-#cv-form{
-    /*display: none; */
 }
 #cv-template{
     display: none;
