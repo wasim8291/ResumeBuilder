@@ -53,8 +53,9 @@ body{
 }
 
 .nav_element > li > a:hover{
-    background-color:rgba(255, 166, 0);
+    background-color:grey;
 }
+
 
 #checkbox_for_nav{
     display: none;
@@ -169,7 +170,6 @@ body{
     font-size: 5vh;
     letter-spacing: 1px;
     text-transform: capitalize;
-    border-bottom: 2px solid orange;
     border-radius: 10px;
     margin-bottom: 10px;
     text-align: center;
@@ -243,14 +243,14 @@ body{
     height: 300px;
     background-color: #f9f9f9;
     margin: auto;
-    background-color:rgba(228, 216, 216, 0.9);
-    margin-bottom: 100px;
-    border-radius: 10px;
+    background-color:floralwhite;
+    margin-bottom: 110px;
+    border-radius: 32px;
 }
 
 .cardrow > .card_text{
     width: 50%;
-    height: 100%;
+    height: 107%;
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -267,23 +267,27 @@ body{
 }
 
 .cardrow > .card_image{
-    width: 50%;
-    height: 100%;
+    width: 35%;
+    height: 96%;
+    padding-top: 1%
 }
 
 .cardrow > .card_image > img{
-    width:100%;
+    width: 404px;
+    border: 2px solid black;
+    border-radius: 26px;
     height: 100%;
     object-fit: cover;
 }
 
 
-#build_resume_btn_in_card_section{
+#build_resume_btn_in_card_section {
     background-color: rgba(1,1,1,.8);
     padding: 7px 22px;
     border: none;
     border-radius: 5px;
     margin-top: 10px;
+
 }
 
 
@@ -333,7 +337,7 @@ body{
 .form{
     width: 100%;
     height: 80vh;
-    background-color: rgba(255, 166, 0);
+    background-color: darkgray;
     display: grid;
     place-items: center;
 }
@@ -395,7 +399,7 @@ textarea{
     font-weight: 600;
     text-transform: capitalize;
     border: none;
-    background-color:rgb(255, 119, 0);
+    background-color:grey;
     cursor: pointer;
     transition-duration: .5s;
     margin-bottom: 20px;
@@ -428,7 +432,7 @@ textarea{
 .footer{
     width: 100%;
     height: 60px;
-    background-color: bisque;
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -437,6 +441,7 @@ textarea{
 .footer > .footer_text{
     text-align: center;
     font-size: 2.9vh;
+    color: white;
 }
 
 
