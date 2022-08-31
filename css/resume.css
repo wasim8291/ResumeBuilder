@@ -8,9 +8,9 @@ body{
     display: none;
 }
 .myimg{
-    /*border: 1px solid red*/
-    border: radius 50%;
-    width: 200px;   
+    width: 35%;
+    height: 20%;
+    border-radius: 50%;
 }
 
 
