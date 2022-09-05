@@ -436,7 +436,7 @@ body {
 /* //form styliing is here  */
 .form {
     width: 100%;
-    height: 80vh;
+    height: 91vh;
     background-color: darkgray;
     display: grid;
     place-items: center;
@@ -511,6 +511,8 @@ textarea {
 }
 
 
+
+
 /* //form responsive  */
 @media (max-width:800px) {
     .form>form>.form_element>input {
@@ -562,4 +564,25 @@ textarea {
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+
+.icons {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+    margin-top: -6%
+}
+
+.icons>a {
+    width: 1.8rem;
+    height: 1.8rem;
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    line-height: 1.8rem;
+    border-radius: 99px;
 }
